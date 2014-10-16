@@ -1,0 +1,9 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 0.1
+ */
+
+// Database 'icebreaker'
+// icebreaker.place
+
+[{"ID":"1","Name":"Hunter North","Checked-in":"0"}, {"ID":"2","Name":"Roosevelt House","Checked-in":"0"}, {"ID":"3","Name":"Starbucks 66th and #rd","Checked-in":"0"}]
