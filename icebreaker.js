@@ -12,11 +12,12 @@ function geoFindMe() {
 
     output.innerHTML = '<p>Latitude is ' + latitude + '° <br>Longitude is ' + longitude + '°</p>';
 
-    var img = new Image();
-    img.src = "http://maps.googleapis.com/maps/api/staticmap?center=" + 29 + "," + 36 + "&zoom=13&size=300x300&sensor=false";
+    var map = L.map('map').setView([latitude, longitude], 15);
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+    var marker = L.marker([latitude, longitude]).addTo(map);
 
-    output.appendChild(img);
   };
+
 
   function error() {
     output.innerHTML = "Unable to retrieve your location";
@@ -26,4 +27,3 @@ function geoFindMe() {
 
   navigator.geolocation.getCurrentPosition(success, error);
 }
-

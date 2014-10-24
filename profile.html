@@ -6,8 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IceBreaker</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- our files -->
+    <link href="icebreaker.css" rel="stylesheet">
     <script src="icebreaker.js"></script>
+
+    <!-- bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- leaflet -->
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <script src="leaflet/leaflet.js"></script>
+
+
   </head> 
   <body>
     <div class="jumbotron">
@@ -15,3 +25,4 @@
     </div>
     <p><button onclick="geoFindMe()">Show my location</button></p>
     <div id="out"></div>
+    <div id="map"></div>
