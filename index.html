@@ -5,38 +5,57 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>IceBreaker</title>
+
 <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="frameworks/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="frameworks/bootstrap/js/bootstrap.min.js"></script>
+
 <!-- our files -->
-    <link href="icebreaker.css" rel="stylesheet">
-    <script src="icebreaker.js"></script>
+    <link href="css/icebreaker.css" rel="stylesheet">
+    <script src="js/icebreaker.js"></script>
+    <title>IceBreaker | Welcome</title>
 
   </head> 
   <body>
-    <div>
-      <img src="icebreaker.png">
+    <div id="page-wrap">
+      <div class="jumbotron">
+        <h4>Welcome to</h4><h1>ICEBREAKER</h1>
+      </div>
+<!-- Log In -->
+      <div class="container">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="email">
+        </div>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="password">
+        </div>
+        <div class="button">
+          <button type="button" class="btn btn-default primary">
+          <a href="home.html">Log In</a>
+        </div>
+      </div>
+<!-- Sign Up -->
+      <div class="container">
+        <h4>New to Icebreaker?</h4>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="name">
+        </div>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="email">
+        </div>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="password">
+        </div>
+        <div class="button">
+          <button type="button" class="btn btn-default primary">
+          <a href="profile.html">Create Account</a>
+        </div>
+      </div>
+
+
+
+
     </div>
-    <div class="container">
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Email">
-      </div>
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="password">
-      </div>
-      <div class="button">
-        <button type="button" class="btn btn-default primary">
-        <a href="profile.html">Sign In</a>
-      </div>
-    </div>
-
-
-
-
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
