@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=">
 
 <!-- Bootstrap -->
     <link href="frameworks/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,12 +17,38 @@
 
   </head> 
   <body>
-    <div id="page-wrap">
-      <div id="header">
-        <h1>Icebreaker</h1>
-
-
+<!-- header -->
+    <div class="container" id="header">
+      <div class="row">
+        <div class="col-xs-9">
+          <div id="home-button">
+            <h3>Icebreaker</h3>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <button type="button" id="log-out" class="btn btn-default btn-small">
+            <div class="glyphicon glyphicon-log-out"></div>
+          </button>
+        </div>
       </div>
     </div>
+<!-- page body -->
+    <div class="container" id="body">
+      <div class="row">
+        <div class="col-xs-4">
+          <!-- 
+            profile pic with name under(link to profile page) 
+          -->
+        </div>
+        <div class="col-xs-8">
+          <!-- 
+            status text field (no button to submit, it will be at bottom of page) 
+          -->       
+        </div>
+      </div>
+    </div>
+      <!-- find my location button -->
+      <!-- list of places nearby (fills after locaiton is found) -->
+      <!-- post it up / submit button -->
   </body>
 </html>

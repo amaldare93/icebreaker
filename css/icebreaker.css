@@ -1,7 +1,27 @@
-body{
-	background-color: #3FA9F5;
+body {
+	color: #f9feff;
+	background-color: #3fd7f5;
 }
 
-#map{
-	height:180px;
+#header {
+background-color: grey;
+}
+
+.jumbotron {
+	color: #3fd7f5;
+	background-color: #f9feff;
+}
+
+#log-out {
+	margin-top: 10px;
+}
+
+.col-xs-4{
+	border: 1px solid black;
+	height: 125px;
+}
+
+.col-xs-8{
+	border: 1px solid black;
+	height: 125px;
 }
