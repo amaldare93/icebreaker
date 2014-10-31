@@ -16,12 +16,11 @@ background-color: grey;
 	margin-top: 10px;
 }
 
-.col-xs-4{
-	border: 1px solid black;
+#profile-box {
 	height: 125px;
 }
 
-.col-xs-8{
-	border: 1px solid black;
-	height: 125px;
+
+#home-button {
+	color: white;
 }

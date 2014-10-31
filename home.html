@@ -14,6 +14,8 @@
     <link href="css/icebreaker.css" rel="stylesheet">
     <script src="js/icebreaker.js"></script>
     <title>IceBreaker | Home</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
   </head> 
   <body>
@@ -22,12 +24,14 @@
       <div class="row">
         <div class="col-xs-9">
           <div id="home-button">
-            <h3>Icebreaker</h3>
+            <a href="home.html" id="home-button">
+              <h3>Icebreaker</h3>
+            </a>
           </div>
         </div>
         <div class="col-xs-3">
           <button type="button" id="log-out" class="btn btn-default btn-small">
-            <div class="glyphicon glyphicon-log-out"></div>
+            <span class="glyphicon glyphicon-log-out"></span>
           </button>
         </div>
       </div>
@@ -36,9 +40,9 @@
     <div class="container" id="body">
       <div class="row">
         <div class="col-xs-4">
-          <!-- 
-            profile pic with name under(link to profile page) 
-          -->
+          <div id="profile-box">
+          <!-- profile pic with name under(link to profile page) -->
+          </div>
         </div>
         <div class="col-xs-8">
           <!-- 
@@ -46,9 +50,33 @@
           -->       
         </div>
       </div>
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <button type="button" id="get-location" class="btn btn-default btn-small">
+            <span class="glyphicon glyphicon-map-marker"> Get Location</span>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1" id="list-places">
+          <div class="container">
+            <!-- make amount of rows dynamic with JS -->
+            <div class="row">
+              <!-- places to check in -->
+            </div>
+            <!-- more rows -->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <button type="button" id="post-it" class="btn btn-default btn-small">
+            <span class="glyphicon glyphicon-flag"> Post It Up!</span>
+          </button>
+        </div>
+      </div>
+
     </div>
-      <!-- find my location button -->
-      <!-- list of places nearby (fills after locaiton is found) -->
-      <!-- post it up / submit button -->
+
   </body>
 </html>
