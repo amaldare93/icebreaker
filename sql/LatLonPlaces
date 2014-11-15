@@ -1,0 +1,65 @@
+-- phpMyAdmin SQL Dump
+-- version 4.2.7
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost:3306
+-- Generation Time: Nov 15, 2014 at 07:27 PM
+-- Server version: 5.6.17-debug-log
+-- PHP Version: 5.5.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `icebreaker`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `table 4`
+--
+
+CREATE TABLE IF NOT EXISTS `table 4` (
+  `Type of Business` varchar(18) DEFAULT NULL,
+  `Business` varchar(29) DEFAULT NULL,
+  `Parsed Address` int(3) DEFAULT NULL,
+  `City/State` varchar(12) DEFAULT NULL,
+  `Zip Code` int(5) DEFAULT NULL,
+  `Location 1` varchar(39) DEFAULT NULL,
+  `Lat` decimal(10,8) DEFAULT NULL,
+  `Lon` decimal(11,8) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `table 4`
+--
+
+INSERT INTO `table 4` (`Type of Business`, `Business`, `Parsed Address`, `City/State`, `Zip Code`, `Location 1`, `Lat`, `Lon`) VALUES
+('Bars and Lounges', '12th Street Ale House', 192, 'New York, NY', 10003, '192 2nd Avenue New York, NY 10003', 40.73115159, -73.98581788),
+('Bars and Lounges', 'Bar 13', 35, 'New York, NY', 10003, '35 13th Street New York, NY 10003', 40.73453200, -73.99220021),
+('Bars and Lounges', 'Bar Jamon', 125, 'New York, NY', 10003, '125 17th Street New York, NY 10003', 40.73587834, -73.98730884),
+('Casual Eateries', 'Hale and Hearty', 11, 'New York, NY', 10003, '11 17th Street New York, NY 10003', 40.73755477, -73.99135770),
+('Casual Eateries', 'Hawkers', 225, 'New York, NY', 10003, '225 14th Street New York, NY 10003', 40.73286930, -73.98617761),
+('Restaurants', 'Kellari''s Parea', 36, 'New York, NY', 10003, '36 20th Street New York, NY 10003', 40.73867892, -73.98863276),
+('Restaurants', 'Kibo', 111, 'New York, NY', 10003, '111 18th Street New York, NY 10003', 40.73686641, -73.98786157),
+('Arts and Leisure', 'Bowlmor and Carnival', 110, 'New York, NY', 10003, '110 University Place New York, NY 10003', 40.73426491, -73.99251710),
+('Arts and Leisure', 'Collaborative Arts Project 21', 18, 'New York, NY', 10011, '18 18th Street New York, NY 10011', 40.73908361, -73.99321030),
+('Arts and Leisure', 'Dance Forum NY', 20, 'New York, NY', 10003, '20 17th Street New York, NY 10003', 40.73735490, -73.99095875),
+('Landmarks', 'Theodore Roosevelt Birthplace', 28, 'New York, NY', 10003, '28 20th Street New York, NY 10003', 40.73903609, -73.98956057),
+('Books and News', 'Barnes & Noble Booksellers', 33, 'New York, NY', 10003, '33 17th Street New York, NY 10003', 40.73679934, -73.98964000),
+('Books and News', 'Namaste Book Shop', 2, 'New York, NY', 10011, '2 14th Street New York, NY 10011', 40.73600706, -73.99372904),
+('Books and News', 'Strand Bookstore', 828, 'New York, NY', 10003, '828 Broadway New York, NY 10003', 40.73353063, -73.99101166),
+('Health and Fitness', '19th Street Gym', 22, 'New York, NY', 10011, '22 19th Street New York, NY 10011', 40.73935957, -73.99211181),
+('Health and Fitness', 'Atmananda Yoga Sequence', 67, 'New York, NY', 10003, '67 Irving Place New York, NY 10003', 40.73662847, -73.98685210),
+('Health and Fitness', 'Bally''s Total Fitness', 641, 'New York, NY', 10011, '641 6th Avenue New York, NY 10011', 40.74077434, -73.99437043);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
