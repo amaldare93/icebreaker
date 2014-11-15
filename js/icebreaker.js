@@ -1,4 +1,4 @@
-function geoFindMe() {
+function getLocation() {
   var output = document.getElementById("out");
 
   if (!navigator.geolocation){
@@ -27,3 +27,6 @@ function geoFindMe() {
 
   navigator.geolocation.getCurrentPosition(success, error);
 }
+
+
+

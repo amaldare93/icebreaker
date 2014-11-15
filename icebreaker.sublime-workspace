@@ -1,0 +1,469 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"geo",
+				"geoFindMe"
+			],
+			[
+				"map",
+				"mapout"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"INc",
+				"IntCell"
+			],
+			[
+				"bi",
+				"Bin_Tree"
+			],
+			[
+				"print",
+				"Print_in"
+			],
+			[
+				"Print",
+				"Print_in"
+			],
+			[
+				"root",
+				"Root"
+			],
+			[
+				"is",
+				"isEmpty"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"len",
+				"length-1"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"top",
+				"top"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"rad",
+				"border-bottom-right-radius"
+			],
+			[
+				"max",
+				"max_ind"
+			],
+			[
+				"max_",
+				"max_ind"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"o",
+				"OVERLOADING_OPERATORS"
+			],
+			[
+				"tex",
+				"textventure"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "home.html",
+			"settings":
+			{
+				"buffer_size": 2679,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2009,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nearby.html",
+			"settings":
+			{
+				"buffer_size": 1449,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "profile.html",
+			"settings":
+			{
+				"buffer_size": 1302,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/icebreaker.css",
+			"settings":
+			{
+				"buffer_size": 252,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/amaldare/icebreaker/css/icebreaker.css",
+		"/Users/amaldare/icebreaker/home.html",
+		"/Users/amaldare/icebreaker/profile.html",
+		"/Users/amaldare/icebreaker/nearby.html",
+		"/Users/amaldare/icebreaker/index.html",
+		"/Users/amaldare/icebreaker/icebreaker.html",
+		"/Users/amaldare/icebreaker/icebreaker/icebreaker.html",
+		"/Users/amaldare/Documents/bootstrap-3.1.1-dist/css/bootstrap-theme.css",
+		"/Users/amaldare/icebreaker/icebreaker/icebreaker.js",
+		"/Users/amaldare/icebreaker/icebreaker/icebreaker.css",
+		"/Users/amaldare/icebreaker/icebreaker.js",
+		"/Users/amaldare/icebreaker/icebreaker.css",
+		"/Users/amaldare/Documents/icebreaker.css",
+		"/Users/amaldare/Documents/icebreaker.js",
+		"/Users/amaldare/Documents/icebreaker.html",
+		"/Users/amaldare/Desktop/Computer Science/Notes.cpp",
+		"/Users/amaldare/Documents/myPrograms/euler/euler5.js",
+		"/Users/amaldare/Documents/myPrograms/euler/README.md",
+		"/Users/amaldare/Documents/myPrograms/euler/euler6.js",
+		"/Users/amaldare/Documents/myPrograms/euler/euler4.js",
+		"/Users/amaldare/Documents/myPrograms/euler/euler8.js",
+		"/Users/amaldare/Documents/myPrograms/euler/euler7.js",
+		"/Users/amaldare/Documents/myPrograms/euler/euler3.js",
+		"/Users/amaldare/Documents/myPrograms/euler/euler2.js",
+		"/Users/amaldare/Documents/myPrograms/euler/euler1.js",
+		"/Users/amaldare/Documents/My Programs/C++/Hello World/Hello World/main.cpp",
+		"/Users/amaldare/Documents/My Programs/Web/Kelwulf.js",
+		"/Users/amaldare/Documents/My Programs/Web/Kelwulf.css",
+		"/Users/amaldare/Documents/My Programs/Web/Kelwulf.html",
+		"/Users/amaldare/Documents/My Programs/Web/textventure.js",
+		"/Users/amaldare/Documents/My Programs/Web/textventure.css",
+		"/Users/amaldare/Documents/My Programs/Web/textventure.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"create",
+			"geoFindMe",
+			"icebreaker.js",
+			"p",
+			"cur",
+			"peek"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "home.html",
+					"settings":
+					{
+						"buffer_size": 2679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								794,
+								794
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								799,
+								659
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 91.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "nearby.html",
+					"settings":
+					{
+						"buffer_size": 1449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								942,
+								942
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "profile.html",
+					"settings":
+					{
+						"buffer_size": 1302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								799,
+								799
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/icebreaker.css",
+					"settings":
+					{
+						"buffer_size": 252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 127.0,
+	"status_bar_visible": true
+}
