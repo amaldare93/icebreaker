@@ -1,0 +1,413 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985818,
+          40.731152
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Bars and Lounges",
+        "business": "12th Street Ale House",
+        "parsed_address": 192,
+        "city_state": "New York, NY",
+        "zip_code": 10003,
+        "location_1": "192 2nd Avenue New York, NY 10003",
+        "lat": 40.7311515939642,
+        "lon": -73.9858178771058,
+        "cartodb_id": 1,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9922,
+          40.734532
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Bars and Lounges",
+        "business": "Bar 13",
+        "parsed_address": 35,
+        "city_state": "New York, NY",
+        "zip_code": 10003,
+        "location_1": "35 13th Street New York, NY 10003",
+        "lat": 40.7345319967588,
+        "lon": -73.992200207388,
+        "cartodb_id": 2,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987309,
+          40.735878
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Bars and Lounges",
+        "business": "Bar Jamon",
+        "parsed_address": 125,
+        "city_state": "New York, NY",
+        "zip_code": 10003,
+        "location_1": "125 17th Street New York, NY 10003",
+        "lat": 40.735878340701,
+        "lon": -73.9873088395265,
+        "cartodb_id": 3,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991358,
+          40.737555
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Casual Eateries",
+        "business": "Hale and Hearty",
+        "parsed_address": 11,
+        "city_state": "New York, NY",
+        "zip_code": 10003,
+        "location_1": "11 17th Street New York, NY 10003",
+        "lat": 40.7375547668128,
+        "lon": -73.9913577008064,
+        "cartodb_id": 4,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986178,
+          40.732869
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Casual Eateries",
+        "business": "Hawkers",
+        "parsed_address": 225,
+        "city_state": "New York, NY",
+        "zip_code": 10003,
+        "location_1": "225 14th Street New York, NY 10003",
+        "lat": 40.7328692990401,
+        "lon": -73.9861776059176,
+        "cartodb_id": 5,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988633,
+          40.738679
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Restaurants",
+        "business": "Kellari's Parea",
+        "parsed_address": 36,
+        "city_state": "New York, NY",
+        "zip_code": 10003,
+        "location_1": "36 20th Street New York, NY 10003",
+        "lat": 40.7386789193494,
+        "lon": -73.9886327550576,
+        "cartodb_id": 6,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987862,
+          40.736866
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Restaurants",
+        "business": "Kibo",
+        "parsed_address": 111,
+        "city_state": "New York, NY",
+        "zip_code": 10003,
+        "location_1": "111 18th Street New York, NY 10003",
+        "lat": 40.7368664100666,
+        "lon": -73.9878615686967,
+        "cartodb_id": 7,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992517,
+          40.734265
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Arts and Leisure",
+        "business": "Bowlmor and Carnival",
+        "parsed_address": 110,
+        "city_state": "New York, NY",
+        "zip_code": 10003,
+        "location_1": "110 University Place New York, NY 10003",
+        "lat": 40.7342649148321,
+        "lon": -73.9925170957322,
+        "cartodb_id": 8,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99321,
+          40.739084
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Arts and Leisure",
+        "business": "Collaborative Arts Project 21",
+        "parsed_address": 18,
+        "city_state": "New York, NY",
+        "zip_code": 10011,
+        "location_1": "18 18th Street New York, NY 10011",
+        "lat": 40.7390836142626,
+        "lon": -73.9932103041867,
+        "cartodb_id": 9,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990959,
+          40.737355
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Arts and Leisure",
+        "business": "Dance Forum NY",
+        "parsed_address": 20,
+        "city_state": "New York, NY",
+        "zip_code": 10003,
+        "location_1": "20 17th Street New York, NY 10003",
+        "lat": 40.7373548954588,
+        "lon": -73.9909587524148,
+        "cartodb_id": 10,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989561,
+          40.739036
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Landmarks",
+        "business": "Theodore Roosevelt Birthplace",
+        "parsed_address": 28,
+        "city_state": "New York, NY",
+        "zip_code": 10003,
+        "location_1": "28 20th Street New York, NY 10003",
+        "lat": 40.73903609296,
+        "lon": -73.9895605696315,
+        "cartodb_id": 11,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98964,
+          40.736799
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Books and News",
+        "business": "Barnes & Noble Booksellers",
+        "parsed_address": 33,
+        "city_state": "New York, NY",
+        "zip_code": 10003,
+        "location_1": "33 17th Street New York, NY 10003",
+        "lat": 40.7367993363081,
+        "lon": -73.9896399957304,
+        "cartodb_id": 12,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993729,
+          40.736007
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Books and News",
+        "business": "Namaste Book Shop",
+        "parsed_address": 2,
+        "city_state": "New York, NY",
+        "zip_code": 10011,
+        "location_1": "2 14th Street New York, NY 10011",
+        "lat": 40.7360070584693,
+        "lon": -73.9937290382429,
+        "cartodb_id": 13,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991012,
+          40.733531
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Books and News",
+        "business": "Strand Bookstore",
+        "parsed_address": 828,
+        "city_state": "New York, NY",
+        "zip_code": 10003,
+        "location_1": "828 Broadway New York, NY 10003",
+        "lat": 40.7335306306201,
+        "lon": -73.9910116583804,
+        "cartodb_id": 14,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992112,
+          40.73936
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Health and Fitness",
+        "business": "19th Street Gym",
+        "parsed_address": 22,
+        "city_state": "New York, NY",
+        "zip_code": 10011,
+        "location_1": "22 19th Street New York, NY 10011",
+        "lat": 40.7393595697404,
+        "lon": -73.9921118105773,
+        "cartodb_id": 15,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986852,
+          40.736628
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Health and Fitness",
+        "business": "Atmananda Yoga Sequence",
+        "parsed_address": 67,
+        "city_state": "New York, NY",
+        "zip_code": 10003,
+        "location_1": "67 Irving Place New York, NY 10003",
+        "lat": 40.7366284651226,
+        "lon": -73.9868520974396,
+        "cartodb_id": 16,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99437,
+          40.740774
+        ]
+      },
+      "properties": {
+        "marker-color": "#0099FF",
+        "type_of_business": "Health and Fitness",
+        "business": "Bally's Total Fitness",
+        "parsed_address": 641,
+        "city_state": "New York, NY",
+        "zip_code": 10011,
+        "location_1": "641 6th Avenue New York, NY 10011",
+        "lat": 40.7407743396777,
+        "lon": -73.9943704296045,
+        "cartodb_id": 17,
+        "created_at": "2014-11-15T19:03:47Z",
+        "updated_at": "2014-11-15T19:04:26Z"
+      }
+    }
+  ]
+}
