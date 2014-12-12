@@ -1,0 +1,1 @@
+var ID = window.location.search.replace("?venueID=", "");

@@ -10,9 +10,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="frameworks/bootstrap/js/bootstrap.min.js"></script>
 
+<!-- foursquare api stuff -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" id="jquery"></script>
+  
+    <link href="frameworks/leaflet/leaflet.css" type="text/css" rel="stylesheet" />
+    <link href="frameworks/foursquare/apisamples.css" type="text/css" rel="stylesheet" />
+ 
+    <script src="frameworks/foursquare/apisamples.js" type="text/javascript"></script>
+    <script src="frameworks/jquery.ba-bbq.js" type="text/javascript"></script>
+    <script src="frameworks/leaflet/leaflet.js" type="text/javascript"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js'></script>
+
+
 <!-- our files -->
     <link href="css/icebreaker.css" rel="stylesheet">
-    <script src="js/icebreaker.js"></script>
+    <script src="js/index.js"></script>
     <title>IceBreaker | Welcome</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -26,9 +38,9 @@
       <div class="container">
       
         <div class="button">
-          <button type="button" class="btn btn-default primary" onclick="location.href='home.html'" >
+          <button type="button" class="btn btn-default primary" id="login" >
             <span class="glyphicon glyphicon-map-marker"></span>
-            Find Nearby Places
+            Log In via Foursquare
           </button>
         </div>
       </div>

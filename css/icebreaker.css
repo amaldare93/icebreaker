@@ -17,10 +17,17 @@ body {
 }
 
 #profile-box {
-	height: 125px;
+	height: 100px;
+	width: 90px;
+	border: solid black 1px;
+	padding: 7px;
 }
-
 
 #home-button {
 	color: white;
+}
+
+#map {
+	margin: 5px;
+	height: 300px;
 }
