@@ -28,7 +28,7 @@ var logIn = function() {
     doAuthRedirect();
   }
 
-  
+  window.location.href = "nearby.html";
 }
 
-window.onload = loadPage;
+//window.onload = loadPage;

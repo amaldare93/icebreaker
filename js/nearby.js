@@ -1,4 +1,5 @@
 var BIGFUNCTON = function() {
+  
   // API config
   var config = {
     apiKey: 'SSXHG3XZZNH25PGCJFR0N3WOT51BNHLRQ1HCMJDDKDXMUYCX',
@@ -23,7 +24,6 @@ var BIGFUNCTON = function() {
   } else {
     doAuthRedirect();
   }
-
   /////////////////////////////////////////////////////////
 
   /* get picture & name
@@ -50,7 +50,7 @@ var BIGFUNCTON = function() {
         // list
         var num = i+1;
         document.getElementById(i).innerHTML = num + ': ' + venues[i]['name'];
-        document.getElementById(i).href = 'people.html?venueID=' + venues[i]['id'];
+        document.getElementById(i).href = 'people.html?venueID=' + venues[i]['id'] + '&token=' + token;
 
         // pins
         var latLng = new L.LatLng(
@@ -61,7 +61,20 @@ var BIGFUNCTON = function() {
       }
     })
   })
+
+var listPeople = function(){
+  $.getJSON(config.apiUrl + 'v2/checkins/add?venueId=' + '40a55d80f964a52020f31ee3' + '&oauth_token=' + token + '&v=20141205', {}, function(data) {
+
+  })
+
+  $.getJSON(config.apiUrl + 'v2/venues/' + '40a55d80f964a52020f31ee3' + '/herenow?oauth_token=' + token + '&v=20141205', {}, function(data) {
+    people = data['response']['herenow'];
+    console.log("hello from inside the function");
+  })
 }
+
+}
+
 
 
 window.onload = BIGFUNCTON;
