@@ -8,19 +8,32 @@ var load = function() {
 
   var token = getUrlVars()['token'];
 	var venueID = getUrlVars()['venueID'];
+  var venueName = getUrlVars()['venueName'].replace(/%20/g, ' ');
+
+ navigator.geolocation.getCurrentPosition( function( position ){ 
+  lat = position.coords.latitude;
+  lng = position.coords.longitude;
 
   // check in to venue
   var xhr = new XMLHttpRequest();
-  xhr.open("POST", config.apiUrl + 'v2/checkins/add?venueId=' + venueID + '&oauth_token=' + token + '&v=20141205');
+  xhr.open("POST", config.apiUrl + 'v2/checkins/add?venueId=' + venueID + '&oauth_token=' + token + '&ll=' + lat + ',' + lng + '&llacc=1&m=swarm&v=20141217');
   xhr.send();
 
-  // 
-  $.getJSON(config.apiUrl + 'v2/venues/' + venueID + '/herenow?oauth_token=' + token + '&v=20141205', {}, function(data) {
+  // generate jumbotron
+  document.getElementById('head1').innerHTML = '<small>You are now checked in to </small>' + venueName;
+
+  // generate list of people in venue
+  $.getJSON(config.apiUrl + 'v2/venues/' + venueID + '/herenow?oauth_token=' + token + '&m=swarm&v=20141217', {}, function(data) {
   	people = data['response']['hereNow'];
-    console.log(people['count']);
-    console.log(people['items']);
+    //document.getElementById('people-list'). = num + ': ' + venues[i]['name'];
+    console.log(people);
+    for (var i = 0; i < people['count']; i++) {
+       document.getElementById(i).style.display = 'block';
+       document.getElementById(i).innerHTML = people['items'][i]['user']['firstName'] + ' ' + people['items'][i]['user']['lastName'];
+    };
+
 	})
-  
+ })
 
 }
 

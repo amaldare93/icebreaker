@@ -27,8 +27,8 @@ var logIn = function() {
   } else {
     doAuthRedirect();
   }
-
-  window.location.href = "nearby.html";
+  console.log(token);
+  document.getElementById(i).onclick = location.href='nearby.html';
 }
 
 //window.onload = loadPage;

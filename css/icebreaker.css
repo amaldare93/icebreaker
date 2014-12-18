@@ -12,6 +12,10 @@ body {
 	background-color: #f9feff;
 }
 
+.list-group-item {
+	color: black;
+}
+
 #log-out {
 	margin-top: 10px;
 }
@@ -24,10 +28,11 @@ body {
 }
 
 #home-button {
-	color: white;
+	color: #f9feff;
 }
 
 #map {
 	margin: 5px;
 	height: 300px;
 }
+
