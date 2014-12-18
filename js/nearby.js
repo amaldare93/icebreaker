@@ -26,13 +26,13 @@ var BIGFUNCTON = function() {
   }
   /////////////////////////////////////////////////////////
 
-  /* get picture & name
+  //get picture & name
   $.getJSON(config.apiUrl + 'v2/users/self?' + '&oauth_token=' + token + '&v=20140601', {}, function(data) {
-    document.getElementById("name").innerHTML = data['response']['user']['firstName'];
-    var picURL = data['response']['user']['photo']['prefix'] + '80x80' + data['response']['user']['photo']['suffix'];
-    document.getElementById("picture").innerHTML = '<img src="' + picURL + '">';
+    //document.getElementById("name").innerHTML = data['response']['user']['firstName'];
+    var picURL = data['response']['user']['photo']['prefix'] + '50x50' + data['response']['user']['photo']['suffix'];
+    document.getElementById("picture").innerHTML = '<img class="img-circle" src="' + picURL + '">';
   })
-  */
+  
 
   // load map and venues
   navigator.geolocation.getCurrentPosition( function( position ){ 
@@ -45,10 +45,21 @@ var BIGFUNCTON = function() {
 
       // Create map.
       var map = new L.mapbox.map('map', 'hellayela.k81bj929').setView(new L.LatLng(lat, lng), 17);
-      // populate map with markers and list with venues
-      for(var i = 0; i < 5; i++){
+
+      // marker for user location
+      var redMarker = L.icon({
+        iconUrl: 'images/marker-icon-red.png'
+      })
+      L.marker([lat, lng], {icon:redMarker}).addTo(map);
+
+      // message
+      document.getElementById('head4').innerHTML = 'check-in to a venue';
+
+      // populate map with venue markers and list with venues
+      for(var i = 0; i < 4; i++){
         // list
         var num = i+1;
+        document.getElementById(i).style.display = 'block';
         document.getElementById(i).innerHTML = num + ': ' + venues[i]['name'];
         document.getElementById(i).href = 'people.html?venueID=' + venues[i]['id'] + '&venueName=' + venues[i]['name'] + '&token=' + token;
 

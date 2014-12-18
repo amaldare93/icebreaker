@@ -13,7 +13,7 @@ body {
 }
 
 .list-group-item {
-	color: black;
+	color: grey;
 }
 
 #log-out {
@@ -33,6 +33,6 @@ body {
 
 #map {
 	margin: 5px;
-	height: 300px;
+	height: 275px;
 }
 
